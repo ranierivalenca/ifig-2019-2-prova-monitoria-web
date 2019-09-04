@@ -6,8 +6,9 @@ Em ambas as listagens, algumas ações estão disponíveis:
     - clientes: editar e remover
     - serviços: editar, fechar, remover e ver (quando um serviço está fechado)
 
+## Instruções
 
-Algumas coisas não estão funcionando como deveriam, então você deve fazer um fork deste projeto repositório para a sua conta e realizar as tarefas descritas abaixo neste repositório:
+Algumas coisas não estão funcionando como deveriam, então **você deve fazer um fork deste projeto repositório para a sua conta e realizar as tarefas descritas abaixo neste repositório**:
 
 1) Consertar os erros de sintaxe (PHP), funções (PHP) e HTML nos seguintes arquivos (note que para consertar todos os erros você precisa navegar e testar o sistema):
     - config.php
