@@ -9,7 +9,7 @@ Em ambas as listagens, algumas ações estão disponíveis:
 
 Algumas coisas não estão funcionando como deveriam, então você deve fazer um fork deste projeto repositório para a sua conta e realizar as tarefas descritas abaixo neste repositório:
 
-1) Consertar os erros de sintaxe (PHP), funções (PHP) e HTML nos seguintes arquivos:
+1) Consertar os erros de sintaxe (PHP), funções (PHP) e HTML nos seguintes arquivos (note que para consertar todos os erros você precisa navegar e testar o sistema):
     - config.php
     - index.php
     - login.php
@@ -21,8 +21,6 @@ Algumas coisas não estão funcionando como deveriam, então você deve fazer um
     - close_service.php
     - update_service.php
     - update_and_close_service.php
-
-Note que para consertar todos os erros você precisa navegar e testar o sistema.
 
 2) **Comentar os trechos do código que você julga importantes para um estudante da disciplina entender. Leve em consideração que este sistema será disponibilizado para os estudantes como um estudo de caso, e quanto mais comentado estiver, melhor. Faça isso enquanto vai realizando as próximas atividades.**
 
