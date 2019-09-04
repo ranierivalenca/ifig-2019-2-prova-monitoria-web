@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 720px;
+    margin: auto;
+    margin-top: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+
+
+form {
+    text-align: center;
+    margin-bottom: 1em;
+}
+input, textarea, select {
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: .25em;
+}
+input[type="submit"] {
+    width: 50%;
+}
+textarea {
+    padding: .25em;
+    resize: none;
+}
+fieldset {
+    width: 100%;
+}
+fieldset legend {
+    font-weight: bold;
+}
+
+
+.login {
+    padding: auto 20px;
+}
+.login input {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+.login input:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.nav {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #444;
+    color: white;
+    text-align: right;
+}
+.nav a {
+    color: white;
+}
+.nav ul li {
+    display: inline;
+    list-style: none;
+}
+.nav ul li:after {
+    content: ' |';
+}
+.nav ul li:last-child:after {
+    content: '';
+}
+
+
+
+.main {
+    display: flex;
+}
+.clients, .services {
+    margin: 0;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.clients {
+    border-right: 1px solid #444;
+}
+.services {
+    border-left: 1px solid #444;
+}
+
+
+
+table {
+    width: 100%;
+}
+table, tr, td, th {
+    border: 1px solid #999;
+    border-collapse: collapse;
+}
+td, th {
+    padding: .5em;
+}
+tr:nth-child(2n) {
+    background: #EEE;
+}
+
+
+.delete {
+    color: #A03;
+    font-weight: bold;
+}
+.edit {
+    color: #380;
+    font-weight: bold;
+}
+.close {
+    color: #30A;
+    font-weight: bold;
+}
